@@ -3,6 +3,13 @@ package com.test.question929;
 import java.util.HashSet;
 import java.util.Set;
 
+/*
+ * 電子郵件都包含本地名及域名，以@分隔，
+ * 例如: test@leetcode.com ， test是本地名、leetcode.com是域名
+ * 除了這些，本地名可能包含 "." 及 "+" 
+ * 需把"."去除 以及 "+"符號後面的字去除，過濾完的電子郵件為答案所需，
+ * 需返回有多少不同的地址實際接收到郵件。
+ */
 public class UniqueEmailAddresses {
 
 	public static void main(String[] args) {
