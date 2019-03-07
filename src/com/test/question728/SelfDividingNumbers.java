@@ -9,7 +9,6 @@ import java.util.List;
  * 須回傳 left ~ rigth 自分割數可被整除的，不包含0
  * 自分割數: ex. 128 % 1 = 0, 128 % 2 = 0, 128 % 8 = 0 
  */
-
 public class SelfDividingNumbers {
 
 	public static void main(String[] args) {

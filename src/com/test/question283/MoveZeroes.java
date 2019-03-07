@@ -2,6 +2,9 @@ package com.test.question283;
 
 import java.util.Arrays;
 
+/*
+ * 將數組中的數字0移至最後，其餘順序不變。
+ */
 public class MoveZeroes {
 
 	public static void main(String[] args) {

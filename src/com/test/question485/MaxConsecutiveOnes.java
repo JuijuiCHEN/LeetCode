@@ -5,9 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * 
  * 找出連號數字1的最大長度。
- *
  */
 public class MaxConsecutiveOnes {
 
