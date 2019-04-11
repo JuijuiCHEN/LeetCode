@@ -6,6 +6,10 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
+/*
+ *  返回指定員工以及其下屬的importance加總，
+ *  若其下屬還有下屬則須一同加入。
+ */
 public class EmployeeImportance {
 
 	public static void main(String[] args) {
