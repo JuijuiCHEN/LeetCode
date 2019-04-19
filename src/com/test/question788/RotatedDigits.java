@@ -1,5 +1,12 @@
 package com.test.question788;
-
+/*
+ * 如果每個數字在旋轉後仍為數字，則數字有效。
+ * 0,1,8旋轉自己
+ * 2和5、6和9互相旋轉
+ * 3,4,7無法反轉即為無效數字
+ * 給一個int，計算出int範圍內反轉後有幾個是有效的數字。
+ * p.s 1和10不是有效數字，因為在旋轉後保持不變。
+ */
 public class RotatedDigits {
 
 	public static void main(String[] args) {
